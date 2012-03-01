@@ -260,7 +260,7 @@ public void showAlert() {
 
 			Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
 			startActivity(intent);
-			MaptweetActivity.this.finish();
+			// MaptweetActivity.this.finish();
 
 
 
@@ -426,7 +426,7 @@ private class accessTweet extends AsyncTask<Intent, Void, Void> {
 	     
 	   /*after tweeting, remove tweet button*/
 	   findViewById(R.id.button1).setVisibility(View.INVISIBLE);
-
+	 
    }
 }
 
