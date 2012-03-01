@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mapIt"
+        android:text="Get My Location" />
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="288dp"
+        android:layout_height="326dp"
+        android:layout_gravity="center"
+        android:apiKey="0WGDhi41aWGJg2omnGeN8GoM-sQYR54IUeSV5ow"
+        android:clickable="false"
+        android:visibility="invisible" >
+
+    </com.google.android.maps.MapView>
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tweet"
+        android:visibility="invisible"
+        android:text="Tweet" />
+
+
+
+</LinearLayout>
